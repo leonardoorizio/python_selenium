@@ -52,7 +52,7 @@ sleep(10)
 
 campo_email = driver.find_element(By.XPATH,'//input[contains(@class, "r-30o5oe r-1dz5y72 r-13qz1uu r-1niwhzg r-17gur6a r-1yadl64 r-deolkf r-homxoj r-poiln3 r-7cikom r-1ny4l3l r-t60dpp r-fdjqy7")]')
 campo_email.click()
-campo_email.send_keys('lgo.dev.floripa@gmail.com')
+campo_email.send_keys('')#incluir no e-mail
 sleep(10)
 
 botao_avancar = driver.find_element(By.XPATH, '//button[contains(@class, "css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-ywje51 r-184id4b r-13qz1uu r-2yi16 r-1qi8awa r-3pj75a r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l")]//div[contains(@class, "css-146c3p1 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci")]//span[contains(text(),"Avançar")]')
