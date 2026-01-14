@@ -51,7 +51,7 @@ sleep(5)
 
 campo_login = driver.find_element(By.ID, 'email')
 campo_login.click()
-campo_login.send_keys('leonardo.orizio@cassol.com.br')
+campo_login.send_keys('')#incluir o e-mail
 sleep(10)
 
 botao_enviar = driver.find_element(By.ID, 'submitBtn')
@@ -60,7 +60,7 @@ sleep(10)
 
 campo_senha = driver.find_element(By.ID, 'i0118')
 campo_senha.click()
-#campo_senha.send_keys('#######') #senha
+campo_senha.send_keys('') #incluir a senha
 sleep(10)
 
 botao_enviar_2 = driver.find_element(By.ID, 'idSIButton9')
