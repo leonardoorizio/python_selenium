@@ -63,7 +63,7 @@ sleep(10)
 
 email = wait.until(CondicaoExperada.element_to_be_clickable((By.XPATH, '//input[contains(@name, "username")]')))
 #email.click()
-email.send_keys('lgo.dev.floripa@gmail.com')
+email.send_keys('')#incluir o e-mail
 sleep(10)
 
 senha = wait.until(CondicaoExperada.element_to_be_clickable((By.XPATH, '//input[contains(@name, "password")]')))
